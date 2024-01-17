@@ -218,10 +218,24 @@ line-height: normal;
     line-height: 26px; 
     padding-bottom: 30px;
 }
-
-
-
-
+.choose-text{
+    text-align: center;
+    position: relative;
+}
+.why-choose-us{
+    padding-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.top-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-card{
+position: absolute;
+left: 40%;
+padding-top: 30px;
+}
 
 
 
@@ -354,8 +368,22 @@ width: 335px;
 .destination-text{
     width: 375px;
 }
-
-
+.top-cards{
+    flex-direction: column;
+}
+.bottom-card{
+   left: 0%;
+}
+.choose-text{
+    width: 309px; ;
+}
+.why-choose-us{
+justify-content: space-between;
+margin: 150px;}
+.card{
+    position: relative;
+    
+}
 
 
 }
