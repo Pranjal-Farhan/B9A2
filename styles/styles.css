@@ -1,5 +1,8 @@
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
 
-
+}
 .left{
     color: #131318;
 
@@ -37,3 +40,155 @@ margin-right: 30px;}
     display: flex;
     justify-content: space-between;
 }
+
+.for-button{
+    border: 0px;
+    text-align: center;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: #FFF;
+
+
+}
+.for-button text{
+    padding-right: 20px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button-bar{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);}
+
+    .explore-travel-heading{
+        padding-top: 106px;
+        color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+    }
+    .smol-text{
+        color: white;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+    }
+
+    .explore-your-travel{
+        margin: auto;
+    width:  1170px;
+    height:  500px;
+        text-align: center;
+        border-radius: 16px;
+        background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/backround1.png);
+        background-size: 1170px 500 px  ;
+    
+    
+    }
+.hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:600px)  {
+        .left>img{height: 25px; width: 25px;}
+        
+        .hamburger{display:block;}
+        
+        
+        
+        .right {
+            display: none;
+           }
+
+           .explore-your-travel{
+            width:335px ;
+            height: 483px;
+           }
+           .explore-travel-heading{
+            padding-top: 10px;
+            
+            color: #FFF;
+            font-family: Mulish;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;}
+
+
+.explore-text{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; 
+    width: 304px;
+
+}
+
+.button-bar{
+flex-direction: column;
+
+
+
+}
+.for-button{width: 255px;
+    height: 52px;
+    flex-shrink: 0;}
+
+
+.Enigma-Travels{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;  
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
